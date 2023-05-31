@@ -1,0 +1,221 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.navbar{
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgb(255, 241, 241);
+    box-shadow: 0px 8px 60px #7B7B7B29;
+    padding-left: 125px;
+    font-size: 28px;
+    padding-top: 25px;
+    display: flex;
+}
+.List{
+    color: skyblue;
+}
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-left: 100px;
+    margin-top: 77px;
+    margin-bottom: 200px;
+    /* justify-content: space-evenly; */
+    
+
+}
+.item1{
+    height: 320px;
+    width: 330px;
+    border: 1px solid gainsboro;
+    padding-left: 30px;
+    padding-top: 25px;
+    /* margin: auto; */
+}
+.item1:hover{
+    box-shadow: 0px 0px 1px  ;
+}
+.taskbar{
+    margin-left: 1000px;
+    display: flex;
+    margin-top: 20px;
+}
+h6{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #00A5EC;
+    border-radius:50%;
+    box-sizing: border-box;
+    background-color: #00A5EC;
+    text-align: center;
+    vertical-align: bottom;
+    
+    font-size: 25px;
+    color: white;
+}
+.add2{
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.add{
+    
+    padding-top: 10px;
+}
+.add:hover{
+    box-shadow: 0px 0px 5px #00A5EC;
+}
+p{
+    color: #00A5EC;
+    padding-bottom: 55px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 34px;
+}
+.visit{
+    position: absolute;
+    color:#C2C2C2 ;
+    text-decoration-line: line-through;
+}
+.buy{
+    position: absolute;
+}
+h4{
+    padding-left: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.popup{
+    height: 250px;
+    width: 500px;
+    border: 1px solid #EDEDED;
+    /* position: relative; */
+  position: fixed;
+    bottom: 175px;
+    left: 432px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 0px 40px #67676729;
+    
+}
+.popup1{
+    padding-top:20px ;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.maincontainer2{
+ 
+    filter: blur(15px);
+    
+    
+}
+.popup2{
+    border: 2px solid #EDEDED;
+    margin:50px 20px 25px 20px;
+    padding: 10px 0px 10px 14px ;
+}
+input[type="button"]{
+    height:48px ;
+    width: 180px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #EDEDED;
+    background-color: #00A5EC;
+    margin-left: 300px;
+    
+}
+.paris{
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+}
+.item2{
+    margin: auto;
+   
+
+}
+.back{
+    display: flex;
+    position: absolute;
+    top: 115px;
+    left: 300px;
+}
+.back1{
+    color: wheat;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    padding-top: 9px;
+    box-sizing: border-box;
+    
+}
+.back2{
+    padding-top: 7px;
+    padding-left: 9px;
+    font-size: 20px;
+}
+.arrow{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.parispopup{
+    height: 250px;
+    width: 500px;
+    border: 1px solid #EDEDED;
+   
+    position: absolute;
+    top: 200px;
+   
+    left: 432px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 0px 40px #67676729;
+    
+}
+.parispopup1{
+    padding-top:20px ;
+    padding-left: 20px;
+    font-size: 24px;
+    
+}
+.Taklist{
+   
+    filter: blur(3px);
+}
+.parispopup2{
+    border: 2px solid #EDEDED;
+    margin:50px 20px 25px 20px;
+    padding: 10px 0px 10px 14px ;
+    color: #C2C2C2;
+}
+input[type="button"]{
+    height:48px ;
+    width: 180px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #EDEDED;
+    background-color: #00A5EC;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+.cross{
+    position: relative;
+    left: 430px;
+    bottom: 25px;
+    font-size:30px;
+
+
+}
